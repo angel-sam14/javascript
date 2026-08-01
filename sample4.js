@@ -155,8 +155,8 @@
 // while (i <= 10) {
 //     if (i % 2 != 0) {
 //         console.log(i);
-//     }
-//     i++;
+    // }
+    // i++;
 // }
 
 // sum
@@ -285,7 +285,7 @@
 // }
 
 
-// 2
+// 2.pattern
 
 // for (let i = 1; i <= 4; i++) {
     // let pattern = "";
@@ -297,14 +297,53 @@
     // console.log(pattern);
 // }
 
-// 3
+// 3.pattern
 
-for (let i = 1; i <= 4; i++) {
-    let pattern = "";
+// for (let i = 1; i <= 4; i++) {
+//     let pattern = "";
 
-    for (let j = i; j < i + 4; j++) {
-        pattern += j;
-    }
+//     for (let j = i; j < i + 4; j++) {
+//         pattern += j;
+//     }
 
-    console.log(pattern);
-}
+//  console.log(pattern);
+// }
+
+// 4.pattern
+
+// let num = 1;
+
+// for (let i = 1; i <= 3; i++) {
+//     let pattern = "";
+
+//     for (let j = 1; j <= 4; j++) {
+//         pattern += num + " ";
+//         num++;
+//     }
+
+//     console.log(pattern);
+// }
+
+
+// 5.pattern
+
+// for(let i = 1;i<=4;i++) {
+//     let pattern= "";
+//     for(let j = 1;j<=i;j++) {
+//         pattern+="*";
+//     }
+//     console.log(pattern);
+// }
+
+
+// 6.PATTERN
+
+// let num=1
+// for(let i = 1;i<=3;i++) {
+//     let pattern= "";
+//     for(let j = 1;j<=i;j++) {
+//         pattern+= j+ " ";
+//         num++;
+//     }
+//     console.log(pattern);
+// }

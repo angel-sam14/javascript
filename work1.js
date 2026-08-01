@@ -138,21 +138,89 @@
 // 10.sum
 
 
-let naturalSum = 0;
-let evenSum = 0;
-let oddSum = 0;
+// let naturalSum = 0;
+// let evenSum = 0;
+// let oddSum = 0;
 
-for (let i = 1; i <= 10; i++) {
+// for (let i = 1; i <= 10; i++) {
 
-    naturalSum = naturalSum + i;
+//     naturalSum = naturalSum + i;
 
-    if (i % 2 === 0) {
-        evenSum = evenSum + i;
-    } else {
-        oddSum = oddSum + i;
-    }
+//     if (i % 2 === 0) {
+//         evenSum = evenSum + i;
+//     } else {
+//         oddSum = oddSum + i;
+//     }
+// }
+
+// console.log("The sum of natural number is =", naturalSum);
+// console.log("The sum of even number is=", evenSum);
+// console.log("The sum of odd number is =", oddSum);
+
+
+// 11.print 1 -10
+
+// for (let i = 1; i <= 10; i++) {
+//     console.log(i);
+// }
+
+// 12. odd number btw 1-20
+
+//  let i = 1;
+
+//  while (i <= 20) {
+//      if (i % 2 != 0) {
+//          console.log(i);
+//     }
+//     i++;
+// }
+
+
+// 13. colour using loop
+
+// const colors = ['red', 'green', 'blue'];
+
+// for (let i = 0; i < colors.length; i++) {
+//     console.log(colors[i]);
+//  }
+
+// 14. print sum of 1-50 using while
+
+// let i = 1;
+// let sum = 0;
+
+// while (i <= 50) {
+//     sum = sum + i;
+//     i++;
+// }
+
+// console.log("Sum =", sum);
+
+// 15. print 10-1 using do-while
+
+
+// let i = 10;
+//  do {
+//      console.log(i);
+//     i--;
+//  } while (i >= 1);
+
+
+// 16. print in reverse order
+
+// const num =[1,2,3,4,5];
+// for (let i = num.length - 1; i >= 0; i--) {
+//     console.log(num[i]);
+// }
+
+
+//17.find total [10,20,30,40]
+
+const num=[10,20,30,40];
+let sum = 0;
+
+for (let i = 0; i < num.length; i++) {
+    sum = sum + num[i];
 }
 
-console.log("The sum of natural number is =", naturalSum);
-console.log("The sum of even number is=", evenSum);
-console.log("The sum of odd number is =", oddSum);
+console.log("Total =", sum);
