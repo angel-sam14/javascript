@@ -174,6 +174,7 @@ let btn = document.getElementById("btn");
 let count = 5;
 
 let interval = setInterval(() => {
+
     count--;
     timer.textContent = count;
 
@@ -181,9 +182,14 @@ let interval = setInterval(() => {
         clearInterval(interval);
         content.innerHTML = "The button is gone";
     }
+
 }, 1000);
 
+
 btn.addEventListener("click", () => {
+
     clearInterval(interval);
-    timer.textContent = "Saved!";
+
+    content.innerHTML = "You saved the button";
+
 });
