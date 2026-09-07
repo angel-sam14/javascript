@@ -6,7 +6,7 @@
 
 // syntax
 
-// function function name(oparameters..) { function defenition
+// function function name(parameters..) { function defenition
 // block of code
 // }
 
